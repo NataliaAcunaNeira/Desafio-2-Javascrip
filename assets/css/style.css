@@ -1,0 +1,27 @@
+* {
+    margin: 0
+}
+
+
+.imagen {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-style: solid;
+}
+
+.card {
+    grid-area: section;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.imagen2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
